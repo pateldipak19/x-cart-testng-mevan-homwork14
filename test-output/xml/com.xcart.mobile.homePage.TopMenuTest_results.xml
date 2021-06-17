@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sanity Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.891">
+  <properties />
+  
+  
+            <testcase name="verifyUserShouldNavigateToComingSoonPageSuccessfully" time="4.012" classname="com.xcart.mobile.homePage.TopMenuTest" />
+                <testcase name="verifyUserShouldNavigateToNewPageSuccessfully" time="3.879" classname="com.xcart.mobile.homePage.TopMenuTest" />
+      
+</testsuite>

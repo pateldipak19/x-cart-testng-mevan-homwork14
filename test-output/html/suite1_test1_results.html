@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - sanity Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>sanity Test</h1>
+<p>
+  Test duration: 234.454s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.xcart.mobile.hotDeals.HotDealsTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifySaleProductsArrangeByRates
+      </td>
+  <td class="duration">
+    63.488s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mouse hover on hot deals tabBy.xpath: (//span[@class='primary-title'])[2]<br>
+                                Getting text From element[[ChromeDriver: chrome on WINDOWS (7355d2bc15f216709a178be9cdbf399f)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span]compare withSale<br>
+                                Getting text From element[[ChromeDriver: chrome on WINDOWS (7355d2bc15f216709a178be9cdbf399f)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span]compare withSale<br>
+                                Getting Sale text from element By.xpath: //h1[@id='page-title']<br>
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\conta\IdeaProjects\xcart-mav-tn-homework14/test-output/html/verifySaleProductsArrangeByRatesThu_Jun_17_13_18_32_BST_2021.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\conta\IdeaProjects\xcart-mav-tn-homework14/test-output/html/verifySaleProductsArrangeByRatesThu_Jun_17_13_18_32_BST_2021.jpg><img src=C:\Users\conta\IdeaProjects\xcart-mav-tn-homework14/test-output/html/verifySaleProductsArrangeByRatesThu_Jun_17_13_18_32_BST_2021.jpg height=200 width=200></img></a>
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\conta\IdeaProjects\xcart-mav-tn-homework14/test-output/html/verifySaleProductsArrangeByRatesThu_Jun_17_13_18_32_BST_2021.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\conta\IdeaProjects\xcart-mav-tn-homework14/test-output/html/verifySaleProductsArrangeByRatesThu_Jun_17_13_18_32_BST_2021.jpg><img src=C:\Users\conta\IdeaProjects\xcart-mav-tn-homework14/test-output/html/verifySaleProductsArrangeByRatesThu_Jun_17_13_18_32_BST_2021.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[@id=&apos;page-title&apos;] (tried for 50 second(s) with 500 milliseconds interval)</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)<br />
+              com.xcart.mobile.utility.Utility.waitUntilVisibilityOfElementLocated(Utility.java:215)<br />
+              com.xcart.mobile.pages.Sale.actualSaleText(Sale.java:30)<br />
+              com.xcart.mobile.hotDeals.HotDealsTest.verifySaleProductsArrangeByRates(HotDealsTest.java:65)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[@id=&apos;page-title&apos;]&quot;}<br/>
+&nbsp; (Session info: chrome=91.0.4472.101)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;LAPTOP-8LBRLJ88&apos;, ip: &apos;192.168.0.50&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\conta\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63094}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 7355d2bc15f216709a178be9cdbf399f<br/>
+*** Element info: {Using=xpath, value=//h1[@id=&apos;page-title&apos;]}</a><br />
+        <div class="stackTrace" id="exception-1">
+                      sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+                      sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+                      sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+                      java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+                      org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+                      org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+                      org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+                      org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)<br />
+                      org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)<br />
+                      com.xcart.mobile.utility.Utility.waitUntilVisibilityOfElementLocated(Utility.java:215)<br />
+                      com.xcart.mobile.pages.Sale.actualSaleText(Sale.java:30)<br />
+                      com.xcart.mobile.hotDeals.HotDealsTest.verifySaleProductsArrangeByRates(HotDealsTest.java:65)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+                      java.lang.reflect.Method.invoke(Method.java:498)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+                      org.testng.TestRunner.run(TestRunner.java:505)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+                      org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+                      org.testng.TestNG.run(TestNG.java:1017)<br />
+                      com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+                      com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.xcart.mobile.homePage.TopMenuTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToComingSoonPageSuccessfully
+      </td>
+  <td class="duration">
+    4.012s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Getting text HomeFrom element[[ChromeDriver: chrome on WINDOWS (6191940da48e3bbe947c1982b3d1ac97)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']/li]compare withComing soon<br>
+                                Getting text Hot dealsFrom element[[ChromeDriver: chrome on WINDOWS (6191940da48e3bbe947c1982b3d1ac97)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']/li]compare withComing soon<br>
+                                Getting text ShippingFrom element[[ChromeDriver: chrome on WINDOWS (6191940da48e3bbe947c1982b3d1ac97)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']/li]compare withComing soon<br>
+                                Getting text New!From element[[ChromeDriver: chrome on WINDOWS (6191940da48e3bbe947c1982b3d1ac97)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']/li]compare withComing soon<br>
+                                Getting text Coming soonFrom element[[ChromeDriver: chrome on WINDOWS (6191940da48e3bbe947c1982b3d1ac97)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']/li]compare withComing soon<br>
+                                Page navigation on coming soon By.xpath: (//span[text()='Coming soon'])[2]<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToNewPageSuccessfully
+      </td>
+  <td class="duration">
+    3.879s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Getting text HomeFrom element[[ChromeDriver: chrome on WINDOWS (cc614301d11eabf68901ec475ee87f87)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']/li]compare withNew!<br>
+                                Getting text Hot dealsFrom element[[ChromeDriver: chrome on WINDOWS (cc614301d11eabf68901ec475ee87f87)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']/li]compare withNew!<br>
+                                Getting text ShippingFrom element[[ChromeDriver: chrome on WINDOWS (cc614301d11eabf68901ec475ee87f87)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']/li]compare withNew!<br>
+                                Getting text New!From element[[ChromeDriver: chrome on WINDOWS (cc614301d11eabf68901ec475ee87f87)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']/li]compare withNew!<br>
+                                Getting text from elementBy.xpath: //h1[@id='page-title']<br>
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.xcart.mobile.hotDeals.HotDealsTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyBestSellersProductsArrangeByZToA
+      </td>
+  <td class="duration">
+    25.032s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mouse hover on hot deals tabBy.xpath: (//span[@class='primary-title'])[2]<br>
+                                Getting text SaleFrom element[[ChromeDriver: chrome on WINDOWS (4524928efda3bf914b6581d48ddd10b9)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span]compare withBestsellers<br>
+                                Getting text BestsellersFrom element[[ChromeDriver: chrome on WINDOWS (4524928efda3bf914b6581d48ddd10b9)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span]compare withBestsellers<br>
+                                Getting Seller TextBy.xpath: //h1[@id='page-title']<br>
+                                Mouse hover to sort-by drop-down By.xpath: //span[contains(text(),'Sort by:')]<br>
+                                Getting text Newest firstFrom element[[ChromeDriver: chrome on WINDOWS (4524928efda3bf914b6581d48ddd10b9)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withName Z - A<br>
+                                Getting text Price Low - HighFrom element[[ChromeDriver: chrome on WINDOWS (4524928efda3bf914b6581d48ddd10b9)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withName Z - A<br>
+                                Getting text Price High - LowFrom element[[ChromeDriver: chrome on WINDOWS (4524928efda3bf914b6581d48ddd10b9)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withName Z - A<br>
+                                Getting text Name A - ZFrom element[[ChromeDriver: chrome on WINDOWS (4524928efda3bf914b6581d48ddd10b9)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withName Z - A<br>
+                                Getting text Name Z - AFrom element[[ChromeDriver: chrome on WINDOWS (4524928efda3bf914b6581d48ddd10b9)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withName Z - A<br>
+                                Mouse hover and click to a filter [[ChromeDriver: chrome on WINDOWS (4524928efda3bf914b6581d48ddd10b9)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]<br>
+                                Getting product name By.xpath: //ul[@class='products-grid grid-list']/descendant::h5<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyBestSellersProductsPriceArrangeHighToLow
+      </td>
+  <td class="duration">
+    16.391s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mouse hover on hot deals tabBy.xpath: (//span[@class='primary-title'])[2]<br>
+                                Getting text SaleFrom element[[ChromeDriver: chrome on WINDOWS (7f939ebd917751cf1e58795767bde5b1)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span]compare withBestsellers<br>
+                                Getting text BestsellersFrom element[[ChromeDriver: chrome on WINDOWS (7f939ebd917751cf1e58795767bde5b1)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span]compare withBestsellers<br>
+                                Getting Seller TextBy.xpath: //h1[@id='page-title']<br>
+                                Mouse hover to sort-by drop-down By.xpath: //span[contains(text(),'Sort by:')]<br>
+                                Getting text Newest firstFrom element[[ChromeDriver: chrome on WINDOWS (7f939ebd917751cf1e58795767bde5b1)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withPrice High - Low<br>
+                                Getting text Price Low - HighFrom element[[ChromeDriver: chrome on WINDOWS (7f939ebd917751cf1e58795767bde5b1)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withPrice High - Low<br>
+                                Getting text Price High - LowFrom element[[ChromeDriver: chrome on WINDOWS (7f939ebd917751cf1e58795767bde5b1)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withPrice High - Low<br>
+                                Mouse hover and click to a filter [[ChromeDriver: chrome on WINDOWS (7f939ebd917751cf1e58795767bde5b1)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]<br>
+                                Getting product price list By.xpath: //ul[@class='products-grid grid-list']/descendant::span[@class='price product-price']<br>
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.xcart.mobile.shopping.ShoppingTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatUserShouldClearShoppingCartSuccessfully
+      </td>
+  <td class="duration">
+    24.304s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mouse hover on hot deals tabBy.xpath: (//span[@class='primary-title'])[2]<br>
+                                Getting text SaleFrom element[[ChromeDriver: chrome on WINDOWS (5dcb4cf49fe27510df5d97ddf411fd1d)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span]compare withBestsellers<br>
+                                Getting text BestsellersFrom element[[ChromeDriver: chrome on WINDOWS (5dcb4cf49fe27510df5d97ddf411fd1d)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span]compare withBestsellers<br>
+                                Getting Seller TextBy.xpath: //h1[@id='page-title']<br>
+                                Mouse hover to sort-by drop-down By.xpath: //span[contains(text(),'Sort by:')]<br>
+                                Getting text Newest firstFrom element[[ChromeDriver: chrome on WINDOWS (5dcb4cf49fe27510df5d97ddf411fd1d)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withName A - Z<br>
+                                Getting text Price Low - HighFrom element[[ChromeDriver: chrome on WINDOWS (5dcb4cf49fe27510df5d97ddf411fd1d)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withName A - Z<br>
+                                Getting text Price High - LowFrom element[[ChromeDriver: chrome on WINDOWS (5dcb4cf49fe27510df5d97ddf411fd1d)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withName A - Z<br>
+                                Getting text Name A - ZFrom element[[ChromeDriver: chrome on WINDOWS (5dcb4cf49fe27510df5d97ddf411fd1d)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withName A - Z<br>
+                                Mouse hover and click to a filter [[ChromeDriver: chrome on WINDOWS (5dcb4cf49fe27510df5d97ddf411fd1d)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]<br>
+                                Mouse hover and click to add product to cartBy.xpath: //button[@class='btn  regular-button add-to-cart product-add2cart productid-13']<br>
+                                Getting green bar text By.xpath: //li[contains(text(),'Product has been added to your cart')]<br>
+                                Close green bar message By.xpath: //a[@class='close']<br>
+                                Click on your cart drop-downBy.xpath: //div[@title='Your cart']<br>
+                                Click on view cartBy.xpath: //span[contains(text(),'View cart')]<br>
+                                Getting your shopping cart text By.xpath: //h1[@id='page-title']<br>
+                                Click on empty your cart By.xpath: //a[contains(text(),'Empty your cart')]<br>
+                                Getting green bar message By.xpath: //li[contains(text(),'Item(s) deleted from your cart')]<br>
+                                Close green bar message By.xpath: //a[@class='close']<br>
+                                Getting your cart empty text from element By.xpath: //h1[@id='page-title']<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabricationsPlush
+      </td>
+  <td class="duration">
+    71.351s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mouse hover on hot deals tabBy.xpath: (//span[@class='primary-title'])[2]<br>
+                                Getting text SaleFrom element[[ChromeDriver: chrome on WINDOWS (173ed7c71fbe12723da492ab658b7b86)] -> xpath: //ul[@class='nav navbar-nav top-main-menu']//li//ul//li//span]compare withSale<br>
+                                Getting Sale text from element By.xpath: //h1[@id='page-title']<br>
+                                Getting text RecommendedFrom element[[ChromeDriver: chrome on WINDOWS (173ed7c71fbe12723da492ab658b7b86)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withName A - Z<br>
+                                Getting text Newest firstFrom element[[ChromeDriver: chrome on WINDOWS (173ed7c71fbe12723da492ab658b7b86)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withName A - Z<br>
+                                Getting text Price Low - HighFrom element[[ChromeDriver: chrome on WINDOWS (173ed7c71fbe12723da492ab658b7b86)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withName A - Z<br>
+                                Getting text Price High - LowFrom element[[ChromeDriver: chrome on WINDOWS (173ed7c71fbe12723da492ab658b7b86)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withName A - Z<br>
+                                Getting text Name A - ZFrom element[[ChromeDriver: chrome on WINDOWS (173ed7c71fbe12723da492ab658b7b86)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]compare withName A - Z<br>
+                                Mouse hover and click on filter[[ChromeDriver: chrome on WINDOWS (173ed7c71fbe12723da492ab658b7b86)] -> xpath: //ul[@class='display-sort sort-crit grid-list']//li//a]<br>
+                                Add product to cart By.xpath: (//span[text()='Add to cart'])[1]<br>
+                                Getting Green bar message By.xpath: //li[contains(text(),'Product has been added to your cart')]<br>
+                                Closing green bar message By.xpath: //a[@class='close']<br>
+                                Click on your cart tab By.xpath: //div[@title='Your cart']<br>
+                                Click on view car button By.xpath: //span[contains(text(),'View cart')]<br>
+                                Getting your shopping cart text By.xpath: //h1[@id='page-title']<br>
+                                Clear quantity of products By.xpath: //input[@id='amount16']<br>
+                                Send new quantity to the element By.xpath: //input[@id='amount16']<br>
+                                Getting your shopping cart text By.xpath: //h1[@id='page-title']<br>
+                                Getting sub total By.xpath: (//span[@class='cart-subtotal']//span[@class='surcharge-cell'])[1]<br>
+                                Getting total price By.xpath: //li[@class='total']//span[@class='surcharge-cell']<br>
+                                Click on check out button By.xpath: //span[contains(text(),'Go to checkout')]<br>
+                                Getting page verification textBy.xpath: //h3[contains(text(),'Log in to your account')]<br>
+                                Enter email dipakqa1562@yahoo.comin email fieldBy.xpath: //input[@id='email']<br>
+                                Click on continue button By.xpath: //tbody/tr[2]/td[1]/button[1]<br>
+                                Getting Secure checkout text from element By.xpath: //h1[@class='title']<br>
+                                Enter first name By.xpath: //input[@id='shippingaddress-firstname']<br>
+                                Enter Last name By.xpath: //input[@id='shippingaddress-lastname']<br
+                                Enter address By.xpath: //input[@id='shippingaddress-street']<br>
+                                clear text on city By.xpath: //input[@id='shippingaddress-city']<br>
+                                Enter city name By.xpath: //input[@id='shippingaddress-city']<br>
+                                Select country By.xpath: //select[@id='shippingaddress-country-code']<br>
+                                Clear text from state field By.xpath: //input[@id='shippingaddress-custom-state']<br>
+                                Enter text to state field By.xpath: //input[@id='shippingaddress-custom-state']<br>
+                                Clear text from zipcode field By.xpath: //input[@id='shippingaddress-zipcode']<br>
+                                Enter text to state field By.xpath: //input[@id='shippingaddress-zipcode']<br>
+                                Click on create an account for later use By.xpath: //input[@id='create_profile']<br>
+                                Enter password By.xpath: //input[@id='password']<br>
+                                Click on local shipping By.xpath: //label[@title='Local shipping']//input[@id='method128']<br>
+                                Click on radio button By.xpath: //input[@value='6']<br>
+                                Getting total price from element By.xpath: (//span[@class='surcharge-cell'])[6]<br>
+                                Click on place order button By.xpath: //span[contains(text(),'Place order:')]<br>
+                                Getting thank you for your order By.xpath: //h1[@id='page-title']<br>
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
